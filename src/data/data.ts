@@ -20,9 +20,9 @@ export const mockedArtists: Artist[] = [
     },
     {
         id: '3',
-        slug: 'miriam-bryant',
-        name: 'Miriam Bryant',
-        imageUrl: 'https://i.scdn.co/image/ab676161000051747994b16479f2784ee5511662',
+        slug: 'central-cee',
+        name: 'Central Cee',
+        imageUrl: 'https://i.scdn.co/image/ab67616100005174f6469f2cbf0a7e78744a3173',
     },
     {
         id: '4',

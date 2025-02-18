@@ -1,3 +1,17 @@
+import { useParams } from "react-router";
+import { mockedAlbums } from "../../data/data";
 export default function AlbumPage() {
-    return (<h1 className="text-3xl">Album Page</h1>);
+    const params = useParams();
+    const album = mockedAlbums.find((a) => a.id === params.id);
+
+    if (!album) {
+        return <h2>Album not found</h2>;
+    }
+
+    return (
+        <div>
+            <h2>{album.title}</h2>
+            <img src={album.imageUrl}></img>
+        </div>
+        );
 }
