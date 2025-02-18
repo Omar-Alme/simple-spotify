@@ -8,10 +8,10 @@ export default function MediaPlayerLayout() {
         <span>Right</span>
       </header>
       <div className='flex gap-2'>
-        <aside className="bg-slate-800 p-4 rounded">
+        <aside className="bg-slate-900 p-4 rounded">
           Sidebar
         </aside>
-        <main className='bg-slate-700 p-4 rounded flex-1'>
+        <main className='bg-slate-900 p-4 rounded flex-1'>
           <Outlet />
         </main>
       </div>
