@@ -1,1 +1,0 @@
-"# magmasend-payout-sdk-uconnect" 
